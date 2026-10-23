@@ -1,0 +1,10 @@
+services:
+  lucky-mcp:
+    build: .
+    image: lucky-mcp:latest
+    container_name: lucky-mcp
+    restart: unless-stopped
+    ports:
+      - "8092:8080"
+    env_file:
+      - .env

@@ -1,0 +1,6 @@
+# 部署脚本不入库（含真实网络信息）
+deploy.sh
+.env
+.env.real
+*.bak
+__pycache__/
